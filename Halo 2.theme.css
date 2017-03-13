@@ -6,6 +6,82 @@
 |   - Thanks To Beard Design for making this theme + letting me use it! -   |
  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\/////////////////////////////////////
 */
+/* Version Displayed */
+:root {--version-content: "1.5.7";}
+
+body:after {
+    content: "Current Version: v" var(--version-content);
+    z-index: 10000000000000000000000000;
+    color: #fff;
+    background: #597859;
+    top: 0;
+    left: 50%;
+    position: absolute;
+    border-radius: 5px;
+    padding: 5px 15px;
+    -webkit-transform: translate(-50%, -100%);
+    transform: translate(-50%, -100%);
+    -webkit-animation: version 6s ease;
+    animation: version 6s ease;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+body:before {
+    content: "Thanks for using Halo 2 Discord Redesign!";
+    z-index: 1000000000000000000000000;
+    color: #fff;
+    background: #597859;
+    top: 0px;
+    left: 50%;
+    position: absolute;
+    border-radius: 5px;
+    padding: 5px 15px;
+    -webkit-transform: translate(-50%, -100%);
+    transform: translate(-50%, -100%);
+    -webkit-animation: version 6s ease;
+    animation: version 6s ease;
+    -webkit-animation-delay: 8s;
+    animation-delay: 8s;
+}
+
+@-webkit-keyframes version {
+    from {
+        -webkit-transform: translate(-50%, -100%);
+        transform: translate(-50%, -100%);
+    }
+    20% {
+        -webkit-transform: translate(-50%, 20%);
+        transform: translate(-50%, 20%)
+    }
+    80% {
+        -webkit-transform: translate(-50%, 20%);
+        transform: translate(-50%, 20%)
+    }
+    to {
+        -webkit-transform: translate(-50%, -100%);
+        transform: translate(-50%, -100%);
+    }
+}
+
+@keyframes version {
+    from {
+        -webkit-transform: translate(-50%, -100%);
+        transform: translate(-50%, -100%);
+    }
+    20% {
+        -webkit-transform: translate(-50%, 20%);
+        transform: translate(-50%, 20%)
+    }
+    80% {
+        -webkit-transform: translate(-50%, 20%);
+        transform: translate(-50%, 20%)
+    }
+    to {
+        -webkit-transform: translate(-50%, -100%);
+        transform: translate(-50%, -100%);
+    }
+}
 
 .now-playing.no-detection {
     padding: 14px 0;
