@@ -7,7 +7,7 @@
  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\/////////////////////////////////////
 */
 /* Version Displayed */
-:root {--version-content: "1.5.7";}
+:root {--version-content: "1.5.8";}
 
 body:after {
     content: "Current Version: v" var(--version-content);
@@ -1940,10 +1940,13 @@ opacity:1!important
 textarea {
 background:transparent!important
 }
+
 /*Scroll Color */
 .scroller-wrap .scroller::-webkit-scrollbar-thumb {
-border:1px solid rgba(0,0,0,0)!important;
-background-color:rgba(100,100,100,0.6)!important;
+	width: 6px;
+	display: initial;
+	border-radius: 0;!important;
+	background-color:rgba(255,255,255,0.4)!important;
 }
 
 
