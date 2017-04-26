@@ -7,7 +7,7 @@
  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\/////////////////////////////////////
 */
 /* Version Displayed */
-:root {--version-content: "1.5.9";}
+:root {--version-content: "1.6.0";}
 
 body:after {
     content: "Current Version: v" var(--version-content);
@@ -1925,6 +1925,10 @@ div.platform-win .user-settings-modal .tab-bar.SIDE .tab-bar-item:nth-of-type(15
 
 .theme-dark .layers {
     background: rgba(255, 255, 255, 0);
+}
+
+.layers, .layer { 
+background: rgba(0,0,0,0)!important; 
 }
 
 .app {
