@@ -7,7 +7,7 @@
  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\/////////////////////////////////////
 */
 /* Version Displayed */
-:root {--version-content: "1.6.0";}
+:root {--version-content: "1.6.1";}
 
 body:after {
     content: "Current Version: v" var(--version-content);
@@ -1929,6 +1929,20 @@ div.platform-win .user-settings-modal .tab-bar.SIDE .tab-bar-item:nth-of-type(15
 
 .layers, .layer { 
 background: rgba(0,0,0,0)!important; 
+}
+
+.container-RYiLUQ,
+.wrapper-2ldvyE,
+.private-channels .channel.selected a,
+.private-channels .channel:hover a
+{
+    background: rgba(0,0,0,0) !important;    
+}
+.contentSelectedText-3j5CXt,
+.contentHoveredText-2HYGIY, 
+.contentHoveredVoice-3qGNKh:active, 
+.contentSelectedVoice-gTtYM9:active{
+	background-color: rgba(0,0,0,0);
 }
 
 .app {
