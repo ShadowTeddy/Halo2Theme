@@ -7,7 +7,7 @@
  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\/////////////////////////////////////
 */
 /* Version Displayed */
-:root {--version-content: "1.6.1";}
+:root {--version-content: "1.6.2";}
 
 body:after {
     content: "Current Version: v" var(--version-content);
@@ -1945,6 +1945,23 @@ background: rgba(0,0,0,0)!important;
 	background-color: rgba(0,0,0,0);
 }
 
+.chat .new-messages-bar button {
+    text-align: left;
+    background: #597859;
+    color: #fff;
+    font-weight: 500;
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding: 6px 10px;
+    line-height: 14px;
+}
+
+.chat .new-messages-bar button:last-child {
+    text-transform: capitalize;
+    font-size: 12.5px;
+    color: #ffffff;
+    transition: color .2s;
+}
+
 .app {
 background:url(https://raw.githubusercontent.com/ShadowTeddy/Halo2Theme/master/MC%20New%20Mombasa.png)!important;
 background-size:cover!important;
@@ -1959,6 +1976,10 @@ textarea {
 background:transparent!important
 }
 
+.scroller-wrap .scroller::-webkit-scrollbar {
+    width: 5px;
+}
+
 /*Scroll Color */
 .scroller-wrap .scroller::-webkit-scrollbar-thumb {
 	background-color:rgba(225,225,225,0.2)!important;
@@ -1968,6 +1989,9 @@ background:transparent!important
 	border-radius: 0;!important;
 }
 
+.scrollerThemed-19vinI.themeGhostHairlineChannels-2lQojW .scroller-fzNley::-webkit-scrollbar-thumb {
+    background-color: rgba(117,117,117,0.6);
+}
 
 .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
 border:none!important;
@@ -2501,6 +2525,7 @@ border-right:0 solid #000
     border: none;
     padding: 7px 0px;
 }
+
 
 .divider {
     margin: 25px 0
@@ -4081,10 +4106,10 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
 .status-picker.popout-menu {
     background: #141414;
     border-radius: 0!important;
-    width: 240px!important;
+    width: 239px!important;
     bottom: 0px!important;
     top: initial!important;
-    height: 85px!important;
+    height: 75px!important;
     display: block;
     position: absolute;
     -webkit-transition: all 150ms cubic-bezier(.5, 0, 0, 1);
